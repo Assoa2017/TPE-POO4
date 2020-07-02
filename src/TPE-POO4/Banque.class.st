@@ -9,10 +9,6 @@ Class {
 }
 
 { #category : #accessing }
-Banque >> Operation [ 
-]
-
-{ #category : #accessing }
 Banque >> clientList [
 	^ clientList
 ]
@@ -53,4 +49,8 @@ Banque >> initialize [
 		super initialize.
 		 compteList:= OrderedCollection new.
 		  clientList:= OrderedCollection new
+]
+
+{ #category : #accessing }
+Banque >> operation [ 
 ]
